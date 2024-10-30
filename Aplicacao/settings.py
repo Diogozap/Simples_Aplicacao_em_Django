@@ -90,6 +90,7 @@ DB_URL = config('DB_URL', default=os.environ.get('DB_URL', None))
 DATABASES = {
     'default': dj_database_url.config(default=DB_URL)
 }
+DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
