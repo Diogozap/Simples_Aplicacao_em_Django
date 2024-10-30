@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-&qf-gr5#)6fg3!@d&&^khc@qbxnl1qnbr%og85(e^zd)m^nfjv
 DEBUG = True
 
 ALLOWED_HOSTS = ['simples-aplicacao-em-django.onrender.com']
-CORS_ORIGIN_ALLOW= [
+CORS_ALLOWED_ORIGINS= [
     "http://localhost:5173",
     "https://simples-aplicacao-em-django-front.onrender.com/",
 ]
