@@ -31,7 +31,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['simples-aplicacao-em-django.onrender.com']
 CORS_ALLOWED_ORIGINS= [
     "http://localhost:5173",
-    "https://simples-aplicacao-em-django-front.onrender.com/",
+    "https://simples-aplicacao-em-django-front.onrender.com",
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
